@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        /* p:hover{
+            background-color: black;
+            color: white;
+        }
+
+        input:focus{
+            color: red;
+            background-color: black;
+            font-size: 25px;
+        } */
+
+        /* a:hover{
+            color: pink;
+        }
+
+        a:active{
+            color: brown;
+        }
+
+        a:visited{
+            color: black;
+        } */
+
+        /* a:nth-child(2n+1){
+            background-color: yellow;
+        } */
+        p::after{
+            content: "-Pranjal Mishra";
+            color: aqua;
+        }
+        p::before   {
+            content: "-Pranjal Mishra";
+            color: aqua;
+        }
+        p::selection{
+            color: yellow;
+            background-color: black;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- Pseudo Class -->
+    <p class="hover">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, alias?</p>
+    <input type="text">
+    <hr>
+    <nav><a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+    </nav>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem animi voluptatum ipsa saepe reiciendis cumque dolorem porro iure, eum voluptates dolores facilis est molestias obcaecati optio corrupti atque pariatur veritatis magni. Accusamus doloribus quis nihil excepturi culpa reprehenderit, soluta ullam at necessitatibus iste, ab, porro suscipit? Aut, expedita nesciunt.</p>
+</body>
+</html>

@@ -1,0 +1,60 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    /* animation-name: colorchange;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: 3; */
+    /* animation-direction:alternate-reverse ; */
+
+    animation: colorchange 3s linear 1s 2 normal ;
+}
+
+/* #ease{
+    animation-timing-function: ease;
+}
+
+#linear{
+    animation-timing-function: linear;
+}
+
+#ease-in{
+    animation-timing-function: ease-in;
+}
+
+#ease-in-out{
+    animation-timing-function: ease-in-out;
+} */
+
+@keyframes colorchange{
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: black;
+        top: 0px;
+        left: 200px;
+    }
+
+    50%{
+        background-color: yellow;
+        top: 200px;
+        left: 200px;
+    }
+
+    75%{
+        background-color: green;
+        top: 200px;
+        left: 00px;
+    }
+
+    100%{
+        background-color: blue;
+        top: 0px;
+        left: 0px;
+    }
+}

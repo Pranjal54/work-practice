@@ -1,0 +1,112 @@
+/* body{
+    background-color: red;
+}
+
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content:"Welcome to the Demo";
+}
+
+
+@media(max-width:400px){
+    body{
+        background-color: blue;
+    }
+
+    div::after{
+        content:"Pathan zinda hai"
+    }
+}
+
+@media(400px<= width<=760px){
+    body{
+        background-color: yellow;
+    }
+
+    div::after{
+        content:"Wakanda forever"
+    }
+}
+
+@media(760px<=width<=900px){
+    
+
+    body{
+        background-color: rgb(225, 0, 255);
+    }
+
+    div::after{
+        content:"hello bacho ";
+    }
+}
+
+@media(min-width:900px){
+    /* if viewport is atleast 900px then this styling will apply */
+
+    /* body{
+        background-color: aqua;
+    }
+
+    div::after{
+        content:"I am a God";
+    }
+} */ 
+
+@media(max-width:600px){
+    body{
+        background-color: red;
+    }
+
+    div::after{
+        content:"This is Mobile compatible"
+    }
+}
+
+@media(min-width:600px){
+    body{
+        background-color: aqua;
+    }
+
+    div::after{
+        content:"This is potrait-Tablet compatible"
+    }
+}
+
+@media(min-width:760px){
+    body{
+        background-color: chartreuse;
+    }
+
+    div::after{
+        content:"This is Tablet compatible"
+    }
+}
+
+@media(min-width:992px){
+    body{
+        background-color: cyan;
+    }
+
+    div::after{
+        content:"This is Desktop compatible"
+    }
+}
+
+@media (min-width:1200px){
+    body{
+        background-color: darkgreen;
+    }
+
+    div::after{
+        content:"This is larger screen compatible"
+    }
+}
+
+div{
+    text-align: center;
+    font-size: x-large;
+}
